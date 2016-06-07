@@ -1,4 +1,4 @@
-#!/usr/bim/ruby
+#!/usr/bin/ruby
 require "optparse"
 
 #
