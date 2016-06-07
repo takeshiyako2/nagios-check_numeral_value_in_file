@@ -5,6 +5,7 @@
 This is a Nagios Plugin.  
 This checker script reads first line of file and get numeral value. And then it compare numbers.
 
+# Usage
 
 ```
 cat /tmp/application.txt
