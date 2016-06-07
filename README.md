@@ -18,3 +18,6 @@ ruby check_numeral_value_in_file.rb -f /tmp/application.txt -w 400 -c 300 --smal
 ```
 
 
+# Author
+
+Takeshi Yako
