@@ -28,19 +28,19 @@ open(params["f"]) {|file|
 # Check
 message = ''
 if params["bigger"] == true
-  if num >= params["w"]
+  if num.to_i >= params["w"].to_i
     message = "WARNING - #{num} is bigger than threshold vale of #{params["w"]}.|num=#{num}"
   end
-  if num >= params["c"]
+  if num.to_i >= params["c"].to_i
     message = "CRITICAL - #{num} is bigger than threshold vale of #{params["c"]}.|num=#{num}"
   end
 end
 
 if params["smaller"] == true
-  if num <= params["w"]
+  if num.to_i <= params["w"].to_i
     message = "WARNING - #{num} is smaller than threshold vale of #{params["w"]}.|num=#{num}"
   end
-  if num <= params["c"]
+  if num.to_i <= params["c"].to_i
     message = "CRITICAL - #{num} is smaller than threshold vale of #{params["c"]}.|num=#{num}"
   end
 end
